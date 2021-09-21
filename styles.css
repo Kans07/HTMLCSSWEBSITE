@@ -1,0 +1,318 @@
+html{
+  font-family:"Lato","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+body{
+  margin:0;
+  background-color: #ffffff;
+}
+p{
+  line-height: 24px;
+  font-size: 16px;
+  color: #5d6660;
+  font-family:"Lato","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+header{
+  height: 80px;
+  background-color: #ffffff;
+}
+a{
+  text-decoration: none;
+  color: #8e8e8e;
+}
+#header-container{
+  width:75%;
+  margin: auto;
+}
+.col-3{
+  width: 32%;
+  float: left;
+}
+.logo{
+  padding-top: 30px;
+}
+.Menu{
+  margin-top: 32px;
+}
+.Menu li{
+  list-style-type: none;
+  display: inline;
+  font-size: .85rem;
+  color: #8e8e8e;
+  padding-right: 30px;
+}
+.getStartedBtn{
+  border-radius: 28px;
+  text-align: center;
+  background-color: #6dc77a;
+  color: #ffffff;
+  padding:10px 26px;
+  text-decoration: none;
+  margin-top:20px;
+  display: inline-block;
+  /*margin-left: 60%;*/
+  float: right;
+}
+
+/* top section */
+
+#top-section-main{
+  background-image: url("D:/HtmlCssAwseomePage/images/Friends.jpg");
+  background-size: cover;
+  height: 740px;
+  border: none;
+}
+#top-section-content{
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+#top-section-content h1{
+  color: #ffffff;
+  font-size: 4em;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 100px;
+  margin-bottom: 15px;
+}
+#top-section-content p{
+  color: #ffffff;
+  font-size: 1.3em;
+  font-weight: 400;
+  text-align: center;
+}
+.play-button{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 50px 0 110px 0;
+}
+.main-form h6{
+  font-family: sans-serif;
+  font-size: .9em;
+  font-weight: 100;
+  color: #ffffff;
+  text-align: center;
+}
+.main-form input{
+  padding-left: 15px;
+  width: 30%;
+  height: 40px;
+  margin:0;
+  font-size: 15px;
+  font-family: sans-serif;
+  border: none;
+  font-weight: 100;
+}
+.main-form button{
+  padding-left: 15px;
+  width: 30%;
+  height: 40px;
+  background-color: #6dc77a;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  border: none;
+}
+
+/* features section */
+
+#features-section{
+  padding: 100px 0;
+}
+.features-section-title{
+  width: 70%;
+  text-align: center;
+  font-weight: 200;
+  margin: auto;
+  line-height: 1.5em;
+}
+#features-section span{
+  background-color: #6dc77a;
+  padding: 2px;
+}
+
+.features-content{
+  margin: auto;
+  width: 80%;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.features-content .col-3{
+  padding-right: 10px;
+  width: 30%;
+}
+.features-content .col-3 img{
+  width: 100%;
+}
+.features-content .col-3 h3{
+  text-align: center;
+}
+.features-content .col-3 p{
+  letter-spacing: 1px;
+  font-size: .9em;
+}
+
+/* showcase section */
+
+.col-2{
+  float: left;
+  width: 48%;
+}
+#showcase1-container{
+  padding-top: 60px;
+  background-color: #f6f8fa;
+  width: 100%;
+  clear: both;
+}
+.showcase{
+  width: 80%;
+  margin: auto;
+  overflow: auto;
+}
+.showcase-image{
+  width: 100%;
+}
+.feature-text{
+  padding-top: 300px;
+  padding-left: 75px;
+  /*width: 50%*/
+}
+.showcase-title{
+  color: #8e8e8e;
+  /* text-align: center; */
+  line-height: 1.5em;
+  width: 70%;
+  font-weight: 200;
+  margin: auto;
+}
+.showcase-section-content{
+  /* text-align: center; */
+  width: 70%;
+  padding: 20px 10px 10px 10px;
+  margin: auto;
+}
+#showcase2-container{
+  padding-top: 60px;
+  width: 100%;
+  clear: both;
+  padding-bottom: 100px;
+}
+
+/* call to action */
+
+#call-to-action{
+  background-image: url("D:/HtmlCssAwseomePage/images/Darkdesk.jpg");
+  background-size: cover;
+  padding-bottom: 45px;
+  border: none;
+}
+.col-1{
+  width: 80%;
+  margin: auto;
+}
+.action-title{
+  text-align: center;
+  color: #ffffff;
+  padding-top: 100px;
+  font-size: 4em;
+  font-weight: 300;
+  margin-top: 0;
+}
+.col-1 p{
+  font-size: 1.6em;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+  padding-bottom: 100px;
+}
+.signupBTN{
+  background-color: #6dc77a;
+  color: #ffffff;
+  padding: 30px 60px;
+  font-size: 1em;
+  letter-spacing: 1px;
+  font-weight: 200;
+}
+.signupBTN:hover{
+  background-color: #5cbf2a;
+}
+
+/* signup */
+
+.signupform{
+  background-color: #f6f8fa;
+  margin-right: 200px;
+  padding: 0px 50px 10px 50px;
+}
+.signupform h6{
+  color: black;
+  padding-top: 15px;
+  font-size: .9em;
+  text-align: center;
+}
+.signupform a{
+  text-decoration: underline;
+  color: blue;
+}
+.top-margin{
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+input{
+  margin: 0;
+  width: 100%;
+  height: 50px;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 100;
+  border: none;
+  margin-top: 15px;
+}
+button{
+  width: 100%;
+  height: 50px;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 100;
+  margin: 0;
+  background-color: #6dc77a;
+  color: #ffffff;
+  border: none;
+  margin-top: 15px;
+}
+
+/* footer */
+footer{
+  /* background-color: black; */
+  clear: both;
+  height: 700px;
+  background-image: url("D:/HtmlCssAwseomePage/images/Footerbg.jpg");
+  background-size: cover;
+}
+.social-footer{
+  width: 33%;
+  float: left;
+  height: 40%;
+  margin: auto;
+}
+.social-footer:hover{
+  background-color: black;
+  opacity: .5;
+}
+.center{
+  width: 50px;
+  margin: auto;
+  padding-top: 60px;
+}
+
+.copyright{
+  color: #ffffff;
+  font-size: .9em;
+  text-align: center;
+  display: block;
+  padding-top: 15px;
+}
